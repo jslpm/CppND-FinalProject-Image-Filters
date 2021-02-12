@@ -38,5 +38,10 @@ This repo contains a program which can apply different filters to an image. The 
 
 The following points have been addressed in the rubric:
 
-| README | A README with instructions is included with the project | 
-| ------ | ------------------------------------------------------- |
+### README
+
+| Criteria | Meets specifications | Comments |
+| -------- | -------------------- | -------- |
+| A README with instructions is included with the project | - The README is included with the project and has instructions for building/running the project.
+|                                                         | - If any additional libraries are needed to run the project, these are indicated with cross-platform installation instructions. |
+|                                                         | - You can submit your writeup as markdown or pdf. |
