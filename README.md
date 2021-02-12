@@ -5,7 +5,7 @@ This repo contains a program which can apply different filters to an image. The 
 * Pencil Sketch
 * Cartoonify
 
-<img src="example.gif" width="600" height="450" />
+<img src="example.gif" width="600" height="373" />
 
 ## Dependencies for Running Locally
 
