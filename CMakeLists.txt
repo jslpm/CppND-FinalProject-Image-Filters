@@ -1,0 +1,6 @@
+cmake_minimum_required(VERSION 2.8)
+project( IMAGE_FILTERS )
+find_package( OpenCV REQUIRED )
+include_directories( ${OpenCV_INCLUDE_DIRS} )
+add_executable( imageFilters src/main.cpp src/init.cpp src/display.cpp src/filter.cpp)
+target_link_libraries( imageFilters ${OpenCV_LIBS} )
