@@ -42,5 +42,5 @@ The following points have been addressed in the rubric:
 
 | Criteria | Meets specifications | Comments |
 | -------- | -------------------- | -------- |
-| A README with instructions is included with the project | The README is included with the project and has instructions for building/running the project. <br /> If any additional libraries are needed to run the project, these are indicated with cross-platform installation instructions. <br />                                                   You can submit your writeup as markdown or pdf |
+| A README with instructions is included with the project | The README is included with the project and has instructions for building/running the project. <br /> <br /> If any additional libraries are needed to run the project, these are indicated with cross-platform installation instructions. <br /> <br />                                                  You can submit your writeup as markdown or pdf |
 
