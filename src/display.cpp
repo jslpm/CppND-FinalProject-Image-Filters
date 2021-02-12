@@ -14,7 +14,7 @@ void Display::start(cv::Mat image) {
 	while(true) {
   	_imgDisp = filter.update(image, tbarSelector.value, tbarThreshold.value);
 		cv::imshow(_windowName, _imgDisp);
-		std::cout << "Selector value = " << tbarSelector.value << ", Threshold value = " << tbarThreshold.value << "\n";
+		//std::cout << "Selector value = " << tbarSelector.value << ", Threshold value = " << tbarThreshold.value << "\n";
 		cv::waitKey(5);
 	}
 }
@@ -27,7 +27,7 @@ void Display::start() {
 		cv::flip(_imgDisp, _imgDisp, 1);
 		_imgDisp = filter.update(_imgDisp, tbarSelector.value, tbarThreshold.value);
 		cv::imshow(_windowName, _imgDisp);
-		std::cout << "Selector value = " << tbarSelector.value << ", Threshold value = " << tbarThreshold.value << "\n";
+		//std::cout << "Selector value = " << tbarSelector.value << ", Threshold value = " << tbarThreshold.value << "\n";
 		cv::waitKey(5);
 	}
 }
