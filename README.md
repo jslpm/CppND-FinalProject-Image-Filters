@@ -42,9 +42,7 @@ The following points have been addressed in the rubric:
 
 | Criteria | Meets specifications | Comments |
 | -------- | -------------------- | -------- |
-| A README with instructions is included with the project | The README is included with the project and has instructions for building/running the project <br/><br/>
-                                                            If any additional libraries are needed to run the project, these are indicated with cross-platform installation instructions <br/><br/>
+| A README with instructions is included with the project | The README is included with the project and has instructions for building/running the project.
+                                                            If any additional libraries are needed to run the project, these are indicated with cross-platform installation instructions.
                                                            You can submit your writeup as markdown or pdf |
-| The README indicates which project is chosen | The README describes the project you have built <br/><br/>
-                                                 The README also indicates the file and class structure, along with the expected behavior or output of the program |
-| The README includes information about each rubric point addressed | The README indicates which rubric points are addressed. The README also indicates where in the code (i.e. files and line numbers) that the rubric points are addressed |
+
