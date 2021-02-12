@@ -4,6 +4,7 @@
 
 int main(int argc, char** argv) {
 
+  // display usage information
   if (argc != 2) {
     std::cout << "usage: ./imageFilters <option>" << "\n\n";
     std::cout << "options" << "\n";
@@ -13,9 +14,9 @@ int main(int argc, char** argv) {
     return -1;
   }
 
-  std::string userOption = argv[1];
-
-  Init init(userOption);
-  std::cout << "Get image from " << init.printUserOption() << "\n";
-  init.start();
+  std::string userOption = argv[1]; // save entered option into variable
+  
+  Init init(userOption); // create object for image filtering
+  std::cout << "Get image from " << init.printUserOption() << "\n"; 
+  init.start(); // initialize program (while loop)
 }
