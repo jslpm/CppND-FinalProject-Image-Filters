@@ -36,21 +36,15 @@ This repo contains a program which can apply different filters to an image. The 
 
 ## Rubric
 
-The complete rubric can be review [here](https://review.udacity.com/#!/rubrics/2533/view)
-
 The following points have been addressed in the rubric:
 
-* README
-  * A README with instructions is included with the project
-  * The README indicates which project is chosen
-  * The README includes información about each rubric point addressed
-* Compiling and Testing
-  * The submission must compile and run
-* Loops, Functions, I/O
-  * The project demostrates an undestanding of C++ functions and control structures: This can be observed in `main.cpp`, `ìnit.cpp`, `display.cpp` and `filter.cpp`
-  * The project accepts user input and processes the input: This point is apply in `main.cpp`, lines 5 and 16-18
-* Object Oriented Programming
-  * The project uses Object Oriented Programming techniques: Three class has been implemented `init`, `display` and `filter`, each with extension `.h` and `.cpp`
-  * Classes use appropriate access specifiers for class members: These can be review in `int.h` lines 10 and 16, `display.h` lines 15 and 20, `filter.h` lines 7 and 14
-  * Classes abstract implementation details from their interfaces: Shown in `init.h`, `init.cpp`, `display.h`, `display.cpp`, `filter.h` and `filter.cpp`
-  * Classes encapsulate behavior: Shown in `init.h`, `init.cpp`, `display.h`, `display.cpp`, `filter.h` and `filter.cpp`
+| README | A README with instructions is included with the project | 
+|        | The README indicates which project is chosen            |
+|        | The README includes información about each rubric point addressed |
+| Compiling and Testing | The submission must compile and run |
+| Loops, Functions, I/O | The project demostrates an undestanding of C++ functions and control structures | This can be observed in `main.cpp`, `ìnit.cpp`, `display.cpp` and `filter.cpp` |
+|                       | The project accepts user input and processes the input                          | This point is apply in `main.cpp`, lines 5 and 16-18 |
+| Object Oriented Programming  | The project uses Object Oriented Programming techniques | Three class has been implemented `init`, `display` and `filter`, each with extension `.h` and `.cpp` |
+|                              | Classes use appropriate access specifiers for class members | These can be review in `int.h` lines 10 and 16, `display.h` lines 15 and 20, `filter.h` lines 7 and 14
+|                              | Classes abstract implementation details from their interfaces | Shown in `init.h`, `init.cpp`, `display.h`, `display.cpp`, `filter.h` and `filter.cpp` |
+|                              | Classes encapsulate behavior | Shown in `init.h`, `init.cpp`, `display.h`, `display.cpp`, `filter.h` and `filter.cpp`
