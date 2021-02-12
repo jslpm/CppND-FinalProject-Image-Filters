@@ -5,7 +5,7 @@
 int main(int argc, char** argv) {
 
   if (argc != 2) {
-    std::cout << "usage: ./imageDisplay <option>" << "\n\n";
+    std::cout << "usage: ./imageFilters <option>" << "\n\n";
     std::cout << "options" << "\n";
     std::cout << "       webcam      - initialize with webcam" << "\n";
     std::cout << "       <imagePath> - open imagen located in <imagePath>" << "\n";
